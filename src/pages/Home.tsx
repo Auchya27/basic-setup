@@ -1,7 +1,12 @@
+import Navbar from "../components/Navbar"
+import CardGrid from "./CardGrid"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Navbar />
+      <CardGrid />
+    </div>
   )
 }
 
